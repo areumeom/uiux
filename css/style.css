@@ -1192,7 +1192,6 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
   position: absolute; inset: 0;
   color: transparent;
   -webkit-text-stroke: 1px #000;
-  text-stroke: 1px #000;
   opacity: 0;
   transition: opacity .5s ease;
   pointer-events: none;
@@ -1220,7 +1219,7 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
   text-align: center;
 }
 .strengths-eyebrow{
-  font-weight: 400; color: #5b5b5b;
+  font-weight: 400; color: #9e9e9e;
   font-size: clamp(14px, 1.2vw, 16px); letter-spacing: 1px;
   margin: 10px 0 8px;
 }
@@ -1322,7 +1321,7 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
   align-self: flex-start;       
   font-weight: 300;            
   font-size: clamp(14px, 1.2vw, 16px); letter-spacing: 1px;
-  color: #5b5b5b;
+  color: #9e9e9e;
   margin: 0 0 6px 2px;          
 }
 .note-title{
@@ -1492,8 +1491,8 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
 }
 .cv-link{
   position: absolute;
-  top: 55%;
-  right: 19%;
+  top: 54%;
+  right: 17%;
   display: inline-block;    
   font-family: 'Pretendard', sans-serif;
   font-size: clamp(18px, 1.8vw, 24px);
@@ -1557,6 +1556,35 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
   will-change: transform, opacity;
   white-space: pre;
 }
+.footer-venn {
+  position: absolute;
+  top: 20%;
+  right: 16%;
+  transform: translateY(-50%);
+  width: clamp(280px, 35vw, 400px);
+  pointer-events: none;
+  z-index: 1;
+}
+.footer-venn svg {
+  width: 100%;
+  height: auto;
+}
+.footer-venn .venn-label {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 50px; letter-spacing: 1px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+@media (max-width: 900px){
+  .footer-venn{
+    position: static;
+    width: 260px;
+    margin: 0 auto 30px;
+  }
+}
+
 .animated-tit.is-inview .tchar,
 .note-eyebrow.is-inview .tchar,
 .cv-link.is-inview .tchar{animation: charUp .7s cubic-bezier(.2,.65,.2,1) forwards; animation-delay: calc(var(--i, 0) * 0.05s);}

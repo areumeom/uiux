@@ -205,12 +205,12 @@
               <div class="ri-right">2024.02 - 06</div>
             </li>
             <li class="resume-item">
-              <div class="ri-left">한국무역협회 K-콘텐츠 국제 비즈니스 플랫폼 운영</div>
-              <div class="ri-right">2021.04 - 05</div>
-            </li>
-            <li class="resume-item">
               <div class="ri-left">베이징 동계올림픽 한국 대표팀 동시 통역</div>
               <div class="ri-right">2022.01 - 03</div>
+            </li>
+            <li class="resume-item">
+              <div class="ri-left">경기관광공사 B2B 온라인 상담회 플랫폼 운영</div>
+              <div class="ri-right">2021.04 - 05</div>
             </li>
             <li class="resume-item">
               <div class="ri-left">Shopee 싱가포르 온라인 마켓 운영</div>
@@ -235,12 +235,16 @@
           <h2 class="resume-sec-title">Certificate</h2>
           <ul class="resume-list">
             <li class="resume-item">
+              <div class="ri-left">운전면허 2종 보통</div>
+              <div class="ri-right">2024</div>
+            </li>
+            <li class="resume-item">
               <div class="ri-left">국내여행안내사</div>
               <div class="ri-right">2020</div>
             </li>
             <li class="resume-item">
               <div class="ri-left">조주기능사</div>
-              <div class="ri-right">2020</div>
+              <div class="ri-right">2019</div>
             </li>
             <li class="resume-item">
               <div class="ri-left">바리스타 1급</div>
@@ -589,7 +593,7 @@
             <figcaption><span class="ko">예측</span> <span class="en">Anticipation</span></figcaption>
           </figure>
           <aside class="strength-note" aria-label="Archive text">
-            <p class="note-eyebrow">Archive</p>
+            <p class="note-eyebrow">[ Hover on image ]</p>
             <div class="note-panels">
               <section class="note-panel note-default">
                 <h4 class="note-title">Stories<br>Behind the Strengths</h4>
@@ -644,11 +648,99 @@
   </section>
   <section id="contact" class="contact-blank" aria-label="Contact & Footer">
     <div class="contact-blank__inner footer-layout">
+
       <div class="footer-left">
         <div class="logo" aria-label="Limitless">
           <span class="logo-pre">Li</span><span class="logo-m">m</span><span class="logo-post">itless</span>
         </div>
         <div class="tag">begins here</div>
+      </div>
+      <div class="footer-venn" aria-hidden="true">
+        <svg class="hero-venn" viewBox="0 0 1200 900" role="img" aria-label="Technology & Humanity">
+          <defs>
+            <!-- Gradient & Filter 정의 -->
+            <radialGradient id="gBlue" cx="70%" cy="35%" r="50%">
+              <stop offset="0%"  stop-color="#f8fbff"/>
+              <stop offset="20%" stop-color="#cae6ff"/>
+              <stop offset="40%" stop-color="#55b2ff"/>
+              <stop offset="70%" stop-color="#0b5bd6"/>
+              <stop offset="100%" stop-color="#062a7a"/>
+            </radialGradient>
+            <radialGradient id="gTechHalo" cx="30%" cy="55%" r="65%">
+              <stop offset="0%" stop-color="rgba(255,255,255,.18)"/>
+              <stop offset="60%" stop-color="rgba(255,255,255,.06)"/>
+              <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+            </radialGradient>
+            <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+              <feGaussianBlur stdDeviation="20"/>
+            </filter>
+            <filter id="dotGlow" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="0.7" result="g"/>
+              <feMerge>
+                <feMergeNode in="g"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+            <mask id="curveMask" maskUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="1200" height="900" fill="white"/>
+              <circle cx="625" cy="420" r="240" fill="black"/>
+              <circle cx="550" cy="600" r="240" fill="black"/>
+            </mask>
+            <linearGradient id="gDiagBlue" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(135 .5 .5)">
+              <stop offset="0%"   stop-color="#BEEDEF"/>
+              <stop offset="55%"  stop-color="#68C3C4"/>
+              <stop offset="100%" stop-color="#124C4D"/>
+              <animateTransform attributeName="gradientTransform"
+                                type="rotate"
+                                values="135 .5 .5; 495 .5 .5"
+                                dur="20s"
+                                repeatCount="indefinite"/>
+            </linearGradient>
+            <radialGradient id="gFlow" cx="35%" cy="30%" r="55%" fx="30%" fy="28%">
+              <stop offset="0%"   stop-color="rgba(255,255,255,.18)"/>
+              <stop offset="35%"  stop-color="rgba(255,255,255,.08)"/>
+              <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+              <animate attributeName="fx" values="30%;70%;30%" dur="22s" repeatCount="indefinite"/>
+              <animate attributeName="fy" values="28%;62%;28%" dur="26s" repeatCount="indefinite"/>
+            </radialGradient>
+            <radialGradient id="gBlueVignette" cx="50%" cy="55%" r="62%">
+              <stop offset="70%" stop-color="rgba(0,0,0,0)"/>
+              <stop offset="100%" stop-color="rgba(0,0,0,.25)"/>
+            </radialGradient>
+          </defs>
+
+          <!-- 왼쪽 원 (Usability) -->
+          <g transform="translate(400,330)">
+            <circle r="200" fill="url(#gTechHalo)"/>
+            <circle r="220" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="3 7" opacity="0.85"/>
+            <text class="venn-label" x="0" y="0" fill="#000">Usability</text>
+          </g>
+
+          <!-- 오른쪽 원 (Delight) -->
+          <g transform="translate(770,590)">
+            <circle r="230" fill="url(#gDiagBlue)" filter="url(#soft)"/>
+            <circle r="230" fill="url(#gFlow)" opacity=".25"/>
+            <text class="venn-label" x="0" y="0" fill="#ffffff">Delight</text>
+          </g>
+
+          <!-- 곡선 + 회전 점 -->
+          <ellipse cx="580" cy="500" rx="430" ry="240"
+            transform="translate(1200,0) scale(-1,1) rotate(39.58 650 500)"
+            fill="none" stroke="#777" stroke-width="2" stroke-linecap="round" mask="url(#curveMask)"/>
+          <g transform="translate(1200,0) scale(-1,1) rotate(39.58 650 500)">
+            <path id="orbitPath" d="M 1010 500 A 430 240 0 1 1 150 500 A 430 240 0 1 1 1010 500" fill="none" stroke="none"/>
+            <g mask="url(#curveMask)">
+              <circle r="6" fill="#111" filter="url(#dotGlow)">
+                <animateMotion dur="14s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitPath"/></animateMotion>
+              </circle>
+            </g>
+            <g mask="url(#curveMask)">
+              <circle r="6" fill="#111" filter="url(#dotGlow)">
+                <animateMotion dur="14s" begin="-7s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitPath"/></animateMotion>
+              </circle>
+            </g>
+          </g>
+        </svg>
       </div>
       <a href="pdf/AreumEom_CV.pdf" class="cv-link" target="_blank" rel="noopener">
         [ Click to explore My CV ]
@@ -656,6 +748,7 @@
     </div>
     <p class="copyright">© 2025 All Right reserved.</p>
   </section>
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/slick.min.js"></script>
