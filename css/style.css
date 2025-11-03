@@ -1558,10 +1558,10 @@ b.section-peek__desc{font-family: 'Pretendard', sans-serif;
 }
 .footer-venn {
   position: absolute;
-  top: 20%;
-  right: 16%;
+  top: 40%;
+  right: 10%;
   transform: translateY(-50%);
-  width: clamp(280px, 35vw, 400px);
+  width: clamp(380px, 39vw, 900px);
   pointer-events: none;
   z-index: 1;
 }
